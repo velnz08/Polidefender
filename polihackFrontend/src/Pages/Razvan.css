@@ -1,0 +1,94 @@
+* {box-sizing: border-box;
+}
+body{
+  background-color: #07081d !important;
+}
+
+.registr {
+  padding: auto;
+
+  position:absolute;
+  width: 50%;
+  left: 28%;
+  top: 25%;
+
+
+
+
+}
+.registr span{
+  color: #C9bbf9;
+  width: 100%;
+ font-size: xx-large;
+ position:relative;
+ left:40%;
+
+}
+label{
+  
+  width: 100%;
+  background-color: #f1ddd9;
+  display: inline-block;
+  height: 10%;
+  font-size: 20px;
+  padding-left: 1%;
+  padding:1.5% 0 2.5% 1% ;
+  border-radius: 8px;
+  margin: 2px;
+ display: none !important;
+}
+.textfield {
+
+  border-radius: 8px;
+  width: 100% ;
+  padding-bottom: 15px ;
+  margin: 1% 0 22px 0  !important ;
+  display: inline-block   ;
+  border: none   ;
+  background: #f1f1f1   ;
+  height: auto;
+
+
+}
+
+.textfield:focus {
+  background-color: #ddd   ;
+  outline: none   ;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .registr span{
+    left:25%;
+  }
+}

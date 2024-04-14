@@ -1,0 +1,74 @@
+.modal-container {
+  position: center;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  background-color: #4682B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-buttonstyle{
+    margin-top: 400%;
+    margin-left: 200%;
+    width: 100px;
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  text-align: center;
+  font-size: 24px; 
+}
+
+.page1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-custom-neutral-dark);
+}
+.page1-text {
+  top: 86px;
+  left: 490px;
+  color: var(--dl-color-custom-primary2);
+  position: absolute;
+  font-size: 40px;
+}
+.page1-text1 {
+  top: 204px;
+  left: 602px;
+  color: rgba(241, 221, 217, 0.3);
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+}
+.page1-select {
+  top: 343px;
+  left: 519px;
+  width: 291px;
+  height: 49px;
+  position: absolute;
+  background-color:lightslategrey;
+}
+.page1-select2 {
+  top: 400px;
+  left: 519px;
+  width: 291px;
+  height: 49px;
+  position: absolute;
+  background-color:lightslategrey;
+}
+.page1-button {
+  top: 488px;
+  left: 611px;
+  position: absolute;
+  background-color: rgb(161, 147, 199);
+}
